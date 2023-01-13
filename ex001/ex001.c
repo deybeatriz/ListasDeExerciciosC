@@ -31,8 +31,7 @@ int main(int argc, char *argv[]) {
 	scanf("%d", &qtd_bikes_vendidas);
 	fflush(stdin);
 	
-	comissao = (0.15 * custo_bike)/qtd_empregados;
-	salario_total = (2 * salario_min) + comissao;
+	salario_total = (2 * salario_min) + (0.15 * custo_bike * qtd_bikes_vendidas)/qtd_empregados;
 	
 	printf("%f\n", comissao);
 	printf("O salário total de cada empregado é %.2f", salario_total);
