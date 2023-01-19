@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1674139962 source:c:\users\ocean\downloads\ex003lp2\ex003lp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
